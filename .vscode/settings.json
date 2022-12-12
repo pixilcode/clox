@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "chunk.h": "c"
+        "*.c": "c",
+        "*.h": "c"
     }
 }
