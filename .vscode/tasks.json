@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Debug Build",
+            "type": "shell",
+            "command": "make build CFLAGS=-g"
+        },
+        {
+            "label": "Run",
+            "type": "shell",
+            "command": "make run"
+        }
+    ]
+}

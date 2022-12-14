@@ -33,6 +33,9 @@ $(BUILD_DIR)/%.o: %.c
 run: build
 	@$(BUILD_DIR)/$(TARGET_EXEC)
 
+debug: build
+	@gdb $(BUILD_DIR)/$(TARGET_EXEC)
+
 clean:
 	rm -r $(BUILD_DIR)
 
