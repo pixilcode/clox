@@ -2,5 +2,12 @@
     "files.associations": {
         "*.c": "c",
         "*.h": "c"
-    }
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/bhb49/clox/build",
+            "binaryPath": "/home/bhb49/clox/build/clox",
+            "binaryArgs": []
+        }
+    ]
 }
