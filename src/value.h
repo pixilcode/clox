@@ -4,6 +4,7 @@
 #include "common.h"
 
 typedef struct Obj Obj;
+typedef struct ObjString ObjString;
 
 typedef enum {
     VAL_BOOL,
@@ -26,7 +27,7 @@ typedef struct {
 #define IS_NUMBER(value) ((value).type == VAL_NUMBER)
 #define IS_OBJ(value) ((value).type == VAL_OBJ)
 
-#define AS_OBJ(value) ((value).type == VAL_OBJ)
+#define AS_OBJ(value) ((value).as.obj)
 #define AS_BOOL(value) ((value).as.boolean)
 #define AS_NUMBER(value) ((value).as.number)
 
